@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Poppins", sans-serif; 
+  background-color: hsl(257, 50%, 61%);
+}
+
+@media only screen and (width:375px){
+  .container{
+   display: flex;
+   flex-direction: column; 
+   justify-content: center;
+   max-width: 375px;
+   align-items: center;
+   cursor: pointer;
+  }
+.bg-img-pc{
+  display: none;
+}
+.bg-img{
+  position: relative;
+  width: 100%;
+}
+.bg-img img{
+  width: 100%;
+}
+.header{
+  display: flex;
+  position: absolute;
+  margin-top: -580px;
+  margin-left: -60px;
+  
+}
+.header img{
+  width: 65%;
+}
+.img-top img{
+width: 88%;
+position: absolute;
+margin-top: -290px;
+margin-left: -155px;
+}
+.text{
+ text-align: center;
+margin-top: -30px;
+}
+.text h1{
+  color: white;
+  font-size: 25px;
+  margin: 20px;
+}
+.text p{
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 23px;
+  margin-top: -15px;
+}
+.btn button{
+  border-radius: 25px;
+  width: 200px;
+  height: 50px;
+  color: blueviolet;
+  font-size: 17px;
+}
+.btn{
+  box-shadow: 0 3px 5px 0px  hsl(189, 27%, 20%);
+  border-radius: 25px;
+}
+.btn :hover{
+  color: white;
+  background-color: hsl(300, 69%, 71%);
+  transition: color .2s ease;
+}
+.anchors{
+  margin-top: 20px;
+}
+.anchors a{
+  margin: 10px;
+  color: whitesmoke;
+}
+.anchors a :hover{
+  color:hsl(335, 69%, 71%) ;
+  transition: color .2s ease;
+}
+}
+@media only screen and (width:425px){
+  .container{
+   display: flex;
+   flex-direction: column; 
+   justify-content: center;
+   max-width: 425px;
+   align-items: center;
+   cursor: pointer;
+  }
+.bg-img-pc{
+  display: none;
+}
+.bg-img{
+  position: relative;
+  width: 100%;
+}
+.bg-img img{
+  width: 110%;
+}
+.header{
+  display: flex;
+  position: absolute;
+  margin-top: -630px;
+  margin-left: -70px;
+  
+}
+.header img{
+  width: 75%;
+}
+.img-top img{
+width: 88%;
+position: absolute;
+margin-top: -350px;
+margin-left: -158px;
+}
+.text{
+ text-align: center;
+margin-top: -60px;
+margin-left: 30px;
+}
+.text h1{
+  color: white;
+  font-size: 25px;
+  margin: 20px;
+}
+.text p{
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 23px;
+  margin-top: -15px;
+}
+.btn button{
+  border-radius: 25px;
+  width: 200px;
+  height: 50px;
+  color: blueviolet;
+  font-size: 17px;
+}
+.btn{
+  box-shadow: 0 3px 5px 0px  hsl(189, 27%, 20%);
+  border-radius: 25px;
+  margin-left: 30px;
+}
+.btn :hover{
+  color: white;
+  background-color: hsl(300, 69%, 71%);
+  transition: color .2s ease;
+}
+.anchors{
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.anchors a{
+  margin: 10px;
+  color: whitesmoke;
+}
+.anchors a :hover{
+  color:hsl(335, 69%, 71%) ;
+  transition: color .2s ease;
+}
+}
+@media only screen and (width:768px){
+  .container{
+   display: flex;
+   flex-direction: column; 
+   justify-content: center;
+   max-width: 768px;
+   align-items: center;
+   cursor: pointer;
+  }
+.bg-img-pc{
+  display: block;
+ width: 768px;
+ overflow: auto;
+}
+.bg-img{
+  display: none;
+}
+.bg-img img{
+  width: 768px;
+}
+.header{
+  display: flex;
+  position: absolute;
+  margin-top: -580px; 
+}
+.header img{
+  width: 100%;
+}
+.img-top img{
+width: 58%;
+position: absolute;
+margin-top: -700px;
+margin-left: -210px;
+}
+.text{
+ text-align: center;
+margin-top: -370px;
+}
+.text h1{
+  color: white;
+  font-size: 25px;
+  margin: 20px;
+}
+.text p{
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 23px;
+  margin-top: -15px;
+}
+.btn button{
+  border-radius: 25px;
+  width: 200px;
+  height: 50px;
+  color: blueviolet;
+  font-size: 17px;
+}
+.btn{
+  box-shadow: 0 3px 5px 0px  hsl(189, 27%, 20%);
+  border-radius: 25px;
+}
+.btn :hover{
+  color: white;
+  background-color: hsl(300, 69%, 71%);
+  transition: color .2s ease;
+}
+.anchors{
+  margin-top: 20px;
+}
+.anchors a{
+  margin: 10px;
+  color: whitesmoke;
+}
+.anchors a :hover{
+  color:hsl(335, 69%, 71%) ;
+  transition: color .2s ease;
+}
+}
+@media only screen and (width:1024px){
+  .container{
+   display: flex;
+   max-width: 1024px;
+   cursor: pointer;
+   margin: 20px;
+  }
+.bg-img-pc{
+  display: block;
+ width: 1024px;
+ margin-left: -150px;
+ overflow: auto;
+ margin-top: -20px;
+}
+.bg-img{
+  display: none;
+}
+.bg-img img{
+  width: 1024px;
+}
+.header{
+  display: flex;
+  position: absolute;
+  margin-top: 10px; 
+  margin-left: 20px;
+}
+.header img{
+  width: 100%;
+}
+.img-top img{
+width: 50%;
+position: absolute;
+margin-top: 190px;
+margin-left: -850px;
+}
+.text{
+  position: absolute;
+margin-top: 190px;
+margin-left: 600px;
+width: 350px;
+}
+.text h1{
+  color: white;
+  font-size: 28px;
+  margin: 20px;
+}
+.text p{
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  margin: 23px;
+  margin-top: -15px;
+}
+.btn button{
+  border-radius: 25px;
+  width: 200px;
+  height: 50px;
+  color: blueviolet;
+  font-size: 17px;
+  background-color: white;
+}
+.btn{
+  box-shadow: 0 3px 5px 0px  hsl(189, 27%, 20%);
+  border-radius: 25px;
+  margin-top: 450px;
+  margin-left: 650px;
+  position: absolute;
+}
+.btn :hover{
+  color: white;
+  background-color: hsl(300, 69%, 71%);
+  transition: color .2s ease;
+}
+.anchors{
+  margin-top: 530px;
+  position: absolute;
+  margin-left: 615px;
+}
+.anchors a{
+  margin: 10px;
+  color: whitesmoke;
+}
+.anchors a :hover{
+  color:hsl(335, 69%, 71%) ;
+  transition: color .2s ease;
+}
+}
+@media only screen and (width:1440px){
+  .container{
+   display: flex;
+   max-width: 1440px;
+   cursor: pointer;
+   margin: 20px;
+  }
+.bg-img-pc{
+  display: block;
+ width: 1440px;
+ margin-left: -150px;
+ overflow: auto;
+ margin-top: -20px;
+}
+.bg-img{
+  display: none;
+}
+.bg-img img{
+  width: 1024px;
+}
+.header{
+  display: flex;
+  position: absolute;
+  margin-top: 10px; 
+  margin-left: 20px;
+}
+.header img{
+  width: 100%;
+}
+.img-top img{
+width: 50%;
+position: absolute;
+margin-top: 150px;
+margin-left: -1250px;
+}
+.text{
+  position: absolute;
+margin-top: 150px;
+margin-left: 800px;
+
+}
+.text h1{
+  color: white;
+  font-size: 38px;
+  margin: 20px;
+  width: 500px;
+}
+.text p{
+  color: white;
+  font-weight: 500;
+  font-size: 22px;
+  margin: 23px;
+  margin-top: -15px;
+  width: 550px;
+}
+.btn button{
+  border-radius: 35px;
+  width: 260px;
+  height: 60px;
+  color: blueviolet;
+  font-size: 19px;
+  background-color: white;
+}
+.btn{
+  box-shadow: 0 3px 5px 0px  hsl(189, 27%, 20%);
+  border-radius: 35px;
+  margin-top: 450px;
+  margin-left: 850px;
+  position: absolute;
+}
+.btn :hover{
+  color: white;
+  background-color: hsl(300, 69%, 71%);
+  transition: color .2s ease;
+}
+.anchors{
+  margin-top: 530px;
+  position: absolute;
+  margin-left: 815px;
+  font-size: 22px;
+  font-weight: 600;
+}
+.anchors a{
+  margin: 10px;
+  color: whitesmoke;
+}
+.anchors a :hover{
+  color:hsl(335, 69%, 71%) ;
+  transition: color .2s ease;
+}
+}
